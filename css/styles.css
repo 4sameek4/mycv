@@ -12,6 +12,11 @@ ul {
   font-family: 'Georgia', serif;
 }
 
+.sublist {
+  margin-left: 320px;     /* shifts bullets to the right */
+  padding-left: 20px;    /* controls bullet indentation */
+}
+
 p {
   line-height: 1.8;
   font-family: 'Georgia', serif;
@@ -181,6 +186,14 @@ a:hover {
   margin-right: 50px;
 }
 
+.edu2 {
+  width: 25%;
+  height: 220px;
+  border-radius: 40%;
+  float: left;
+  margin-right: 50px;
+}
+
 .sk1 {
   position: relative;
   right: 30px;
@@ -194,6 +207,15 @@ a:hover {
   height: 170px;
 }
 
+.web2 {
+  width: 25%;
+  height: 234px;
+  border-radius: 40%;
+  float: right;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
 .project {
   width: 25%;
   border-radius: 40%;
@@ -204,7 +226,7 @@ a:hover {
 
 .hob {
   width: 25%;
-  height: 234px;
+  height: 190px;
   border-radius: 40%;
   float: left;
   margin-right: 50px;
