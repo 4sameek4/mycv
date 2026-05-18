@@ -15,8 +15,9 @@ ul {
 .sublist {
   list-style: none;
   margin-left: auto;     /* shifts bullets to the right */
-  padding-left: 40px;    /* controls bullet indentation */
+  padding-left: 5%;    /* controls bullet indentation */
 }
+
 .sublist li::before {
   content: "→ ";  /* arrow */
   margin-right: 10px;
