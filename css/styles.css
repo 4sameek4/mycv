@@ -14,14 +14,25 @@ ul {
 
 .sublist {
   list-style: none;
-  margin-left: auto;     /* shifts bullets to the right */
-  padding-left: 5%;    /* controls bullet indentation */
+  margin-left: 20px;
+  padding-left: 0;
+  text-align: left;
+}
+
+.sublist li {
+  position: relative;
+  padding-left: 26px; /* space for the arrow */
+  text-align: left;
 }
 
 .sublist li::before {
-  content: "→ ";  /* arrow */
-  margin-right: 15px;
-  color: #0b0896;
+  content: "➔"; /* arrow */
+  position: relative;
+  left: 0;
+  top: 0.1em;
+  color: #000000;
+  font-weight: 600;
+  margin-right: 10px;
 }
 
 p {
