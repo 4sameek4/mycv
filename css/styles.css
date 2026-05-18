@@ -13,7 +13,7 @@ ul {
 }
 
 .sublist {
-  margin-left: 320px;     /* shifts bullets to the right */
+  margin-left: 220px;     /* shifts bullets to the right */
   padding-left: 20px;    /* controls bullet indentation */
 }
 
@@ -157,9 +157,18 @@ a:hover {
 }
 
 .bio2 {
-  width: 40%;
+  width: 60%;
   margin: auto;
   color: #003a48;
+  font-family: 'Papyrus', fantasy;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.bio3 {
+  width: 60%;
+  margin: auto;
+  color: #ffffff;
   font-family: 'Papyrus', fantasy;
   font-size: 1.3rem;
   font-weight: normal;
