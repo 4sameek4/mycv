@@ -20,7 +20,8 @@ ul {
 
 .sublist li::before {
   content: "→ ";  /* arrow */
-  margin-right: 10px;
+  margin-right: 15px;
+  color: #0b0896;
 }
 
 p {
