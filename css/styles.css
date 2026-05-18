@@ -18,7 +18,11 @@ ul {
   padding-left: 5%;    /* controls bullet indentation */
 }
 
-
+.sublist li::before {
+  content: "→ ";  /* arrow */
+  margin-right: 15px;
+  color: #0b0896;
+}
 
 p {
   line-height: 1.8;
